@@ -1,5 +1,5 @@
 import sys #The sys module in Python is a built-in module that provides access to system-specific parameters and functions. This module is useful for getting information about the Python interpreter, interacting with the operating system, and managing the execution of Python programs.
-import logging
+from logger import logging
 
 def error_message_detail(error,error_detail:sys):    #It defines the message that how it will look like with respect to custom exception
     _,_,exc_tb=error_detail.exc_info()
